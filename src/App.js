@@ -30,13 +30,13 @@ function App(props) {
     <div className="App">
       
 
-      <Card style={{marginTop: 20 + 'px'}}>
+      <Card style={{marginTop: 20 + 'px'}} className="Card" >
         {/* <CardImg top width="100%" src="https://via.placeholder.com/318x180" alt="Card image cap" /> */}
         <CardBody>
           <CardTitle tag="h5">{titleData[props.id]}</CardTitle>
           <CardSubtitle tag="h6" className="mb-2 text-muted">{subTitleData[props.id]}</CardSubtitle>
           {/* <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText> */}
-          <Button>Know More</Button>
+          <Button color="success" className="btn">Know More</Button>
         </CardBody>
       </Card>
     </div>
