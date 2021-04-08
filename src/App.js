@@ -8,8 +8,23 @@ function App(props) {
 
   console.log(props);
 
-  const titleData = ['Silicones', 'API', 'Chemicals'];
-  const subTitleData = ['best', 'best', 'best'];
+  const titleData = ['Silicones', 
+  'API\'s', 
+  'Silver Ion Technology', 
+  'Pigments/Paints',
+  'Renewable Energy Products',
+  'Water Treatment Chemicals',
+  'Construction Chemicals'
+];
+  const subTitleData = ['', 
+  '(Active Pharmaceutical Ingredients)', 
+  '',
+  '',
+  '',
+  '',
+  '',
+  '',
+];
 
   return (
     <div className="App">
@@ -20,8 +35,8 @@ function App(props) {
         <CardBody>
           <CardTitle tag="h5">{titleData[props.id]}</CardTitle>
           <CardSubtitle tag="h6" className="mb-2 text-muted">{subTitleData[props.id]}</CardSubtitle>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-          <Button>Button</Button>
+          {/* <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText> */}
+          <Button>Know More</Button>
         </CardBody>
       </Card>
     </div>

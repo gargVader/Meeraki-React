@@ -17,14 +17,14 @@ ReactDOM.render(
 
         <Col md={3}> <App id={0} /> </Col>
         <Col md={3}> <App id={1} /> </Col>
-        <Col md={3}> <App id={0} /> </Col>
-        <Col md={3}> <App id={1} /> </Col>
+        <Col md={3}> <App id={2} /> </Col>
+        <Col md={3}> <App id={3} /> </Col>
       </Row>
 
       <Row className="justify-content-center">
-        <Col md={3}> <App id={0} /> </Col>
-        <Col md={3}> <App id={1} /> </Col>
-        <Col md={3}> <App id={0} /> </Col>
+        <Col md={3}> <App id={4} /> </Col>
+        <Col md={3}> <App id={5} /> </Col>
+        <Col md={3}> <App id={6} /> </Col>
       </Row>
     </Container>
 
