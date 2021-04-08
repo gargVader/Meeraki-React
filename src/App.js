@@ -6,31 +6,29 @@ import {
 
 function App(props) {
 
-  console.log(props);
-
-  const titleData = ['Silicones', 
-  'API\'s', 
-  'Silver Ion Technology', 
-  'Pigments/Paints',
-  'Renewable Energy Products',
-  'Water Treatment Chemicals',
-  'Construction Chemicals'
-];
-  const subTitleData = ['', 
-  '(Active Pharmaceutical Ingredients)', 
-  '',
-  '',
-  '',
-  '',
-  '',
-  '',
-];
+  const titleData = ['Silicones',
+    'API\'s',
+    'Silver Ion Technology',
+    'Pigments/Paints',
+    'Renewable Energy Products',
+    'Water Treatment Chemicals',
+    'Construction Chemicals'
+  ];
+  const subTitleData = [
+    '\n\n\n',
+    '(Active Pharmaceutical Ingredients)',
+    '\n ',
+    '\n\n\n',
+    '\n',
+    '\n',
+    '\n',
+    '\n',
+  ];
 
   return (
     <div className="App">
-      
 
-      <Card style={{marginTop: 20 + 'px'}} className="Card" >
+      <Card style={{ marginend: 20 }} className="Card" >
         {/* <CardImg top width="100%" src="https://via.placeholder.com/318x180" alt="Card image cap" /> */}
         <CardBody>
           <CardTitle tag="h5">{titleData[props.id]}</CardTitle>
