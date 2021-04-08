@@ -3,12 +3,15 @@
   }
 
   .btn{
-    margin-top: 5%;
-    align-self: center, flex-end;
+    margin-top:25px;
   }
 
   .Card{
     padding: 1rem;
+    height:210px;
+    margin-top:25px;
+    margin-bottom: 50px;
+    white-space:pre-wrap;
   }
   
   .App-logo {
