@@ -15,10 +15,10 @@ function App(props) {
     'Construction Chemicals'
   ];
   const subTitleData = [
-    '\n\n\n',
+    '\n',
     '(Active Pharmaceutical Ingredients)',
-    '\n ',
-    '\n\n\n',
+    '\n',
+    '\n',
     '\n',
     '\n',
     '\n',
